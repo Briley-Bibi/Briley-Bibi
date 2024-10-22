@@ -2,38 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2024-10-22T22:09:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-22T22:09:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-22T22:09:09+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://Briley-Bibi.github.io/about/</loc>
     <lastmod>2024-10-22T21:48:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
-    <lastmod>2024-10-22T21:48:33+08:00</lastmod>
+    <loc>https://Briley-Bibi.github.io/</loc>
+    <lastmod>2024-10-22T21:48:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test2/</loc>
-    <lastmod>2024-10-22T21:28:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test/</loc>
-    <lastmod>2024-10-22T21:28:29+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/first-post/</loc>
+    <loc>https://Briley-Bibi.github.io/post/</loc>
     <lastmod>2024-10-22T16:24:01+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-10-22T16:24:01+08:00</lastmod>
+    <loc>https://Briley-Bibi.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/test/</loc>
-    <lastmod>2024-10-22T16:16:31+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://Briley-Bibi.github.io/tags/</loc>
   </url>
 </urlset>

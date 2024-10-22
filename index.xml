@@ -2,58 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>My New Hugo Site</title>
-        <link>http://localhost:1313/</link>
+        <link>https://Briley-Bibi.github.io/</link>
         <description>Recent content on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 22 Oct 2024 22:09:09 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>My First Post</title>
-        <link>http://localhost:1313/posts/my-first-post/</link>
-        <pubDate>Tue, 22 Oct 2024 22:09:09 +0800</pubDate>
-        
-        <guid>http://localhost:1313/posts/my-first-post/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Hello World</title>
-        <link>http://localhost:1313/posts/hello-world/</link>
-        <pubDate>Tue, 22 Oct 2024 21:48:33 +0800</pubDate>
-        
-        <guid>http://localhost:1313/posts/hello-world/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test2</title>
-        <link>http://localhost:1313/posts/test2/</link>
-        <pubDate>Tue, 22 Oct 2024 21:28:35 +0800</pubDate>
-        
-        <guid>http://localhost:1313/posts/test2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>http://localhost:1313/posts/test/</link>
-        <pubDate>Tue, 22 Oct 2024 21:28:29 +0800</pubDate>
-        
-        <guid>http://localhost:1313/posts/test/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>First Post</title>
-        <link>http://localhost:1313/post/first-post/</link>
-        <pubDate>Tue, 22 Oct 2024 16:24:01 +0800</pubDate>
-        
-        <guid>http://localhost:1313/post/first-post/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>http://localhost:1313/post/test/</link>
-        <pubDate>Tue, 22 Oct 2024 16:16:31 +0800</pubDate>
-        
-        <guid>http://localhost:1313/post/test/</guid>
-        <description></description>
-        </item>
-        
+        <lastBuildDate></lastBuildDate><atom:link href="https://Briley-Bibi.github.io/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
