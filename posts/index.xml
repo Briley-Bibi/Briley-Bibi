@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My Blog Site</title>
-        <link>https://Briley-Bibi.github.io/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zn-cn</language><lastBuildDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</lastBuildDate>
-            <atom:link href="https://Briley-Bibi.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - My Blog Site</title>
+        <link>https://Briley-Bibi.github.io/posts/</link>
+        <description>All Posts | My Blog Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>zn-cn</language><lastBuildDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</lastBuildDate><atom:link href="https://Briley-Bibi.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Test2</title>
     <link>https://Briley-Bibi.github.io/posts/test2/</link>
     <pubDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</pubDate>
