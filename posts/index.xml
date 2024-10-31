@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - My Blog Site</title>
-        <link>https://Briley-Bibi.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>All Posts | My Blog Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zn-cn</language><lastBuildDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</lastBuildDate><atom:link href="https://Briley-Bibi.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zn-cn</language><lastBuildDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Test2</title>
-    <link>https://Briley-Bibi.github.io/posts/test2/</link>
+    <link>http://localhost:1313/posts/test2/</link>
     <pubDate>Thu, 31 Oct 2024 20:04:21 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://Briley-Bibi.github.io/posts/test2/</guid>
+    <guid>http://localhost:1313/posts/test2/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Test</title>
-    <link>https://Briley-Bibi.github.io/posts/test/</link>
+    <link>http://localhost:1313/posts/test/</link>
     <pubDate>Thu, 31 Oct 2024 20:03:10 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://Briley-Bibi.github.io/posts/test/</guid>
+    <guid>http://localhost:1313/posts/test/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
