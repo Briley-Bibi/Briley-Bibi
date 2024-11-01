@@ -3,18 +3,10 @@
         <title>All Default - My Blog Site</title>
         <link>https://Briley-Bibi.github.io/posts/</link>
         <description>All Default | My Blog Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 31 Oct 2024 22:18:29 &#43;0800</lastBuildDate><atom:link href="https://Briley-Bibi.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>浅谈我的文字观</title>
-    <link>https://Briley-Bibi.github.io/posts/%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%96%87%E5%AD%97%E8%A7%82/</link>
-    <pubDate>Thu, 31 Oct 2024 22:18:29 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://Briley-Bibi.github.io/posts/%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%96%87%E5%AD%97%E8%A7%82/</guid>
-    <description><![CDATA[<p>翻到前几年写的文字时不觉有些惊讶，不，应该说是惊喜。文字颇有灵性与美感，也是鲜活的，明亮的，至少和当下相比。我甚至有些怀疑是否是自己所写。于是，试着将思绪顺着字句去联想，猜想当时提笔的动机，企图回到此情此景的那刻心境。读罢，顿生陌生之感。可见到这有些稚嫩但故作高深的，纯粹的，感性的，发于景而止于情的文笔，我又觉得找回了些许曾经的自己。</p>]]></description>
-</item>
-<item>
-    <title>LLM-based Agent 调研</title>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Nov 2024 22:49:41 &#43;0800</lastBuildDate><atom:link href="https://Briley-Bibi.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>LLM Based_Agent调研</title>
     <link>https://Briley-Bibi.github.io/posts/llm-based_agent%E8%B0%83%E7%A0%94/</link>
-    <pubDate>Thu, 31 Oct 2024 22:12:48 &#43;0800</pubDate>
+    <pubDate>Fri, 01 Nov 2024 22:49:41 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://Briley-Bibi.github.io/posts/llm-based_agent%E8%B0%83%E7%A0%94/</guid>
     <description><![CDATA[<p>在由 LLM 驱动的自主代理系统中，LLM 充当代理的大脑，主要由几个关键组件组成：</p>
@@ -33,56 +25,22 @@
 </li>
 <li><strong>工具使用</strong>
 <ul>
-<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。</li>
+<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。
+<!-- raw HTML omitted --></li>
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
 <h3 id="关于agent-的规划能力">关于Agent 的规划能力</h3>
 <h4 id="分类">分类</h4>
 <p>可分为<strong>任务分解、多计划选择、外部模块辅助规划，反思和细化 和记忆增强规划</strong>五个类别。</p>]]></description>
 </item>
 <item>
-    <title>First_post</title>
-    <link>https://Briley-Bibi.github.io/posts/first_post/</link>
-    <pubDate>Thu, 31 Oct 2024 20:48:51 &#43;0800</pubDate>
+    <title>浅谈我的文字观</title>
+    <link>https://Briley-Bibi.github.io/posts/%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%96%87%E5%AD%97%E8%A7%82/</link>
+    <pubDate>Thu, 31 Oct 2024 22:18:29 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://Briley-Bibi.github.io/posts/first_post/</guid>
-    <description><![CDATA[<p>下次大V
-cxdnchk
-\k</p>]]></description>
-</item>
-<item>
-    <title></title>
-    <link>https://Briley-Bibi.github.io/posts/llm-based-agent/llm-based-agent%E8%B0%83%E7%A0%94/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://Briley-Bibi.github.io/posts/llm-based-agent/llm-based-agent%E8%B0%83%E7%A0%94/</guid>
-    <description><![CDATA[<h1 id="llm-based-agent-调研">LLM-based Agent 调研</h1>
-<p>在由 LLM 驱动的自主代理系统中，LLM 充当代理的大脑，主要由几个关键组件组成：</p>
-<ul>
-<li><strong>规划</strong>
-<ul>
-<li>子目标和分解：代理将大任务分解为更小的、可管理的子目标，从而有效地处理复杂任务。</li>
-<li>反思与改进：代理可以对过去的行为进行自我批评和自我反思，从错误中吸取教训，并为未来的步骤进行改进，从而提高最终结果的质量。</li>
-</ul>
-</li>
-<li><strong>记忆</strong>
-<ul>
-<li>短期记忆：几乎所有的情境学习（参见<a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" target="_blank" rel="noopener noreffer ">提示工程</a>）都是利用模型的短期记忆来学习。</li>
-<li>长期记忆：这为代理提供了在较长时间内保留和回忆（无限）信息的能力，通常是通过利用外部向量存储和快速检索来实现的。</li>
-</ul>
-</li>
-<li><strong>工具使用</strong>
-<ul>
-<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。</li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-<h3 id="关于agent-的规划能力">关于Agent 的规划能力</h3>
-<h4 id="分类">分类</h4>
-<p>可分为<strong>任务分解、多计划选择、外部模块辅助规划，反思和细化 和记忆增强规划</strong>五个类别。</p>]]></description>
+    <guid>https://Briley-Bibi.github.io/posts/%E6%B5%85%E8%B0%88%E6%88%91%E7%9A%84%E6%96%87%E5%AD%97%E8%A7%82/</guid>
+    <description><![CDATA[<p>翻到前几年写的文字时不觉有些惊讶，不，应该说是惊喜。文字颇有灵性与美感，也是鲜活的，明亮的，至少和当下相比。我甚至有些怀疑是否是自己所写。于是，试着将思绪顺着字句去联想，猜想当时提笔的动机，企图回到此情此景的那刻心境。读罢，顿生陌生之感。可见到这有些稚嫩但故作高深的，纯粹的，感性的，发于景而止于情的文笔，我又觉得找回了些许曾经的自己。</p>]]></description>
 </item>
 </channel>
 </rss>
