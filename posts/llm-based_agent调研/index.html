@@ -35,7 +35,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Briley-Bibi.github.io\/posts\/llm-based_agent%E8%B0%83%E7%A0%94\/"
-        },"genre": "posts","wordcount":  4930 ,
+        },"genre": "posts","wordcount":  4925 ,
         "url": "https:\/\/Briley-Bibi.github.io\/posts\/llm-based_agent%E8%B0%83%E7%A0%94\/","datePublished": "2024-11-01T22:49:41+08:00","dateModified": "2024-11-01T22:49:41+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -77,7 +77,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">LLM Based_Agent调研</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-11-01">2024-11-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4930 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-11-01">2024-11-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4925 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;10 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -112,24 +112,31 @@
 </li>
 <li><strong>工具使用</strong>
 <ul>
-<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></li>
+<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。</li>
 </ul>
 </li>
 </ul>
+<div style="text-align: center;">
+<img src="/images/agent-overview.png" alt="img" style="zoom: 35%;" />
+</div>
 <h3 id="关于agent-的规划能力">关于Agent 的规划能力</h3>
 <h4 id="分类">分类</h4>
 <p>可分为<strong>任务分解、多计划选择、外部模块辅助规划，反思和细化 和记忆增强规划</strong>五个类别。</p>
-<!-- raw HTML omitted -->
+<div style="text-align: center;">
+    <img src="/images/image-20241031112540862.png" alt="image-20241031112540862" style="zoom: 60%;" />
+</div>
 <ol>
 <li>
 <p><strong>任务分解Task Decomposition</strong></p>
 <ul>
-<li>
-<p>基本思想：分而治之。分解成多个子任务，依次对每个子任务进行规划</p>
-<!-- raw HTML omitted -->
+<li>基本思想：分而治之。分解成多个子任务，依次对每个子任务进行规划</li>
+</ul>
 </li>
+</ol>
+  <div style="text-align: center;">
+     <img src="/images/image-20241031112703086.png" alt="image-20241031112703086" style="zoom:75%;" />
+</div>
+<ul>
 <li>
 <p>代表性工作：<strong>CoT [2022], ReAct [2022], HuggingGPT [2023]，Plan-and-Solve[2023]，PAL [2023]</strong></p>
 <blockquote>
@@ -140,8 +147,12 @@
 <li>
 <p>ReAct 将推理与规划分离。它在推理（思维步骤）和规划（行动步骤）之间交替进行。通过将动作空间扩展为特定于任务的离散动作和语言空间的组合，将推理和动作集成到 LLM 中。前者使 LLM 能够与环境交互（例如使用 Wikipedia 搜索 API），而后者促使 LLM 生成自然语言中的推理轨迹。</p>
 <p>格式：<code>Thought, Action, Action Input, Observation</code></p>
-<p>![notion image](D:\Workshop\Docunment\Typora\LLM-based Agent\https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5154a769-881b-43ed-9dfd-565e1261a43d%2FUntitled.png)</p>
 </li>
+</ul>
+<div style="text-align: center;">
+<img src="/images/1.png" alt="image-20241031112540862" style="zoom: 60%;" />
+</div>
+<ul>
 <li>
 <p>HuggingGPT利用 Huggingface Hub 中的各种多模态模型构建了一个用于多模态任务的智能代理。LLM 充当控制器，负责分解人类输入的任务、选择模型并生成最终响应。</p>
 </li>
@@ -163,7 +174,7 @@
 </ul>
 </li>
 </ul>
-</li>
+<ol start="2">
 <li>
 <p><strong>多计划选择Multi-Plan Selection</strong></p>
 <ul>
@@ -235,8 +246,12 @@
 </li>
 <li>
 <p>reflection [2023]通过纳入评估器来评估轨迹，扩展了ReAct。LLM在检测到错误时产生自我反射，帮助纠错。</p>
-<!-- raw HTML omitted -->
 </li>
+</ul>
+<div style="text-align: center;">
+  <img src="/images/reflexion.png" alt="img" style="zoom: 40%;" />
+</div>
+<ul>
 <li>
 <p>RITIC [2023]使用知识库和搜索引擎等外部工具来验证LLM生成的操作。然后，它利用外部知识进行自我纠正，显著减少事实错误。</p>
 </li>
@@ -288,23 +303,22 @@
 <li>交互式编程环境</li>
 </ol>
 <p><strong>Agent主流框架：</strong></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/image.png"
-        data-srcset="/images/image.png, /images/image.png 1.5x, /images/image.png 2x"
-        data-sizes="auto"
-        alt="/images/image.png"
-        title="image" /></p>
+<div style="text-align: center;">
+    <img src="/images/image.png" alt="img" style="zoom: 100%;" />
+</div>
 <p><strong>评估：</strong></p>
-<p>![image-20241031122255959](/Blog/LLM-based Agent/image-20241031122255959.png)</p>
+<div style="text-align: center;">
+    <img src="/images/image-20241031122255959.png" alt="img" style="zoom: 100%;" />
+</div>
 <ul>
 <li>随着开销的增加性能会提升。ReAct, Reflexion等工作涉及到多个计划、额外的思考和反思，所以执行时的开销更大但也带来了性能提升。</li>
 <li>对复杂任务建议使用Fewshot例子。ZeroShot-CoT有推理能力，但是在两个QA任务上相比于few-shot CoT性能下降了很多。
 反思对于提高成功率很重要，特别是复杂任务而言。 Reflexioin相比ReAct消耗更多的token，但是在复杂任务上的性能也好很多。</li>
 </ul>
 <h3 id="关于agent-的记忆能力">关于Agent 的记忆能力</h3>
-<!-- raw HTML omitted -->
+<div style="text-align: center;">
+  <img src="/images/memory.png" alt="img" style="zoom: 40%;" />
+</div>
 <p><strong>人脑记忆之于agent的记忆：</strong></p>
 <ul>
 <li>感觉记忆作为<strong>原始输入的学习嵌入表示</strong>，包括文本、图像或其他模态；</li>
@@ -323,7 +337,9 @@
 </ul>
 </blockquote>
 <p><strong>MIPS 算法比较:</strong></p>
-<!-- raw HTML omitted -->
+<div style="text-align: center;">
+  <img src="/images/mips.png" alt="img" style="zoom: 45%;" />
+</div>
 <h3 id="关于agent-使用工具能力">关于Agent 使用工具能力</h3>
 <ul>
 <li>
@@ -334,7 +350,7 @@
 </li>
 <li>
 <p><strong>HuggingGPT</strong>（2023）是一个框架，使用 ChatGPT 作为任务规划器，根据模型描述选择 HuggingFace 平台中可用的模型，并根据执行结果总结响应。</p>
-<!-- raw HTML omitted -->
+<img src="/images/hugging-gpt.png" alt="img" style="zoom:550%;" />
 </li>
 <li>
 <p><strong>API-Bank</strong>[2023]是评估工具增强型LLM性能的基准。</p>
@@ -378,7 +394,7 @@
 </li>
 <li>
 <p>斯坦福的虚拟小镇</p>
-<!-- raw HTML omitted -->
+<img src="/images/image-20241031173358990.png" alt="image-20241031173358990" style="zoom:60%;" />
 </li>
 </ul>
 <ol>

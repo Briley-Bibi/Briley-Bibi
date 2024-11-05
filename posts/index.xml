@@ -25,12 +25,13 @@
 </li>
 <li><strong>工具使用</strong>
 <ul>
-<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></li>
+<li>代理学习调用外部 API 来获取模型权重中缺少的额外信息（预训练后通常很难改变），包括当前信息、代码执行能力、专有信息源的访问等。</li>
 </ul>
 </li>
 </ul>
+<div style="text-align: center;">
+
+</div>
 <h3 id="关于agent-的规划能力">关于Agent 的规划能力</h3>
 <h4 id="分类">分类</h4>
 <p>可分为<strong>任务分解、多计划选择、外部模块辅助规划，反思和细化 和记忆增强规划</strong>五个类别。</p>]]></description>
